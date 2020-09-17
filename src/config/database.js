@@ -1,6 +1,7 @@
 module.exports = {
   dialect: 'postgres',
-  host: 'localhost',
+  host: '127.0.0.1',
+  port: '5433',
   username: 'postgres',
   password: 'docker',
   database: 'hey-gobarber',
@@ -10,9 +11,3 @@ module.exports = {
     underscoredAll: true,
   },
 };
-
-UserGroup
-
-UserGroups
-
-user_groups
